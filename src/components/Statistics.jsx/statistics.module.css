@@ -1,0 +1,18 @@
+.statisticList{
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+.item {
+    font-size: large;
+    font-weight: 700;
+  }
+  .item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  .item:last-child {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(68, 228, 15);
+    margin-top: 30px;
+  }

@@ -1,0 +1,22 @@
+.button_container{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.button{
+  margin-right: 15px;
+  width: 85px;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(188, 197, 54);
+  color: rgb(66, 80, 4);
+  font-weight: 700;
+  font-size: large;
+  outline: none;
+}
+.button:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
